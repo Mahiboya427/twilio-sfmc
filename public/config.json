@@ -19,7 +19,7 @@
                 {  "to": "{{Contact.Attribute.SMS.phonenumber}}" }
             ],
              "outArguments": [],
-             "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/execute"
+             "url": "https://twilio-sfmc-production.up.railway.app/journeybuilder/execute"
              "verb": "POST",
             "body": "",
             "format": "json",
@@ -33,7 +33,7 @@
     "configurationArguments": {
       "applicationExtensionKey": "e212fd95-29d3-424d-9ace-df63016e13ef",
        "save": {
-           "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/save",
+           "url": "https://twilio-sfmc-production.up.railway.app/journeybuilder/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -41,7 +41,7 @@
             "timeout": 3000
        },
        "publish": {
-           "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/publish",
+           "url": "https://twilio-sfmc-production.up.railway.app/journeybuilder/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -49,7 +49,7 @@
             "timeout": 3000
        },
        "validate": {
-           "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/validate",
+           "url": "https://twilio-sfmc-production.up.railway.app/journeybuilder/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -57,7 +57,7 @@
             "timeout": 3000
        },
        "stop": {
-           "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/stop",
+           "url": "https://twilio-sfmc-production.up.railway.app/journeybuilder/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
