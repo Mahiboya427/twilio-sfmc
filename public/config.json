@@ -16,8 +16,8 @@
         "execute": {
             "inArguments": [
                 {
-                  "email": "{{Contact.Default.EmailAddress}}",
-                  "to": "{{Contact.Attribute.twilio.phonenumber}}" 
+                  "email": "{{Contact.Default.EmailAddress}}"},
+                {  "to": "{{Contact.Attribute.twilio.phonenumber}}" 
                 }               
             ],
             "outArguments": [],
@@ -105,7 +105,7 @@
                     },                    
                     {
                         "to": {
-                            "dataType": "Phone",
+                            "dataType": "String",
                             "isNullable": false,
                             "direction": "out"   
                         }
