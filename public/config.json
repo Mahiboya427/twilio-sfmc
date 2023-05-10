@@ -20,7 +20,10 @@
                 {  "to": "{{Contact.Attribute.twilio.phonenumber}}" 
                 }    
              "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/execute",
-            "verb": "POST",
+           
+            ],
+            "outArguments": [],
+             "verb": "POST",
             "body": "",
             "format": "json",
             "useJwt": false,
@@ -29,8 +32,6 @@
             "retryCount": 1,
             "retryDelay": 10000,
             "concurrentRequests": 5
-            ],
-            "outArguments": [],
            
         }
     },
